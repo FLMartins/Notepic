@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Notepic</string>
+    <string name="init">Inicializando...</string>
+    <string name="init_permissions">Verificando permissões...</string>
+    <string name="init_camera">Testando hardware da camera...</string>
+    <string name="error_permissions">Desculpe, sem permissão o app não pode ser executado.</string>
+    <string name="error_camera">Desculpe, sua camera parece não estar funcionando.</string>
+    <string name="lbl_comecar_a_usar">Começar a usar</string>
+    <string name="lbl_primeiros_passos">Primeiros passos</string>
+    <string name="lbl_criar_nova">Criar nova</string>
+    <string name="lbl_nenhuma_disciplina_encontrada">Nenhuma disciplina encontrada</string>
+    <string name="lbl_horario">Horário</string>
+    <string name="nome_da_disciplina">Nome da disciplina</string>
+    <string name="lbl_ok">Ok</string>
+    <string name="lbl_cancelar">Cancelar</string>
+    <string name="plus">+</string>
+    <string name="minus">-</string>
+    <string name="tag_text">text</string>
+
+    <string-array name="dias_semana">
+        <item>Domingo</item>
+        <item>Segunda-feira</item>
+        <item>Terça-feira</item>
+        <item>Quarta-feira</item>
+        <item>Quinta-feira</item>
+        <item>Sexta-feira</item>
+        <item>Sábado-feira</item>
+    </string-array>
+</resources>

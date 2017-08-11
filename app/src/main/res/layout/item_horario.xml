@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="60dp"
+    android:layout_width="wrap_content"
+    android:paddingBottom="15dp">
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/txt_time_picker"
+        android:layout_alignParentLeft="true"
+        android:layout_height="45dp"
+        android:layout_width="60dp"
+        android:text="00:00"
+        android:textColor="@color/app_green"
+        android:textSize="18sp" />
+
+    <Spinner
+        android:id="@+id/spinner_day"
+        android:backgroundTint="@color/white"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_height="match_parent"
+        android:layout_width="180dp" />
+
+    <Button
+        android:id="@+id/btn_exclude"
+        android:visibility="invisible"
+        android:background="@drawable/btn_red"
+        android:layout_alignParentRight="true"
+        android:layout_height="35dp"
+        android:layout_marginTop="5dp"
+        android:layout_width="35dp"
+        android:text="@string/minus"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+</RelativeLayout>

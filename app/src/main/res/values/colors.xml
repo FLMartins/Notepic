@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#195999</color>
+    <color name="colorPrimaryDark">#104584</color>
+    <color name="colorAccent">@color/app_blue</color>
+    <color name="white">#FFF</color>
+    <color name="app_yellow">#FFDE2A</color>
+    <color name="app_green">#A6FFAC</color>
+    <color name="app_blue">#33B1FF</color>
+    <color name="app_pink">#DD7878</color>
+    <color name="app_orange">#FFA911</color>
+
+    <color name="white_overlay">#CCFFFFFF</color>
+    <color name="black_overlay">#66000000</color>
+    <color name="blue_overlay">#BB104584</color>
+</resources>

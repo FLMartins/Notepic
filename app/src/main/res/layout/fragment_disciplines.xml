@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_overlay"
+    tools:context="br.com.woobe.notepic.fragments.DisciplinesFragment">
+
+    <ListView
+        android:id="@+id/list_disciplines"
+        android:layout_width="match_parent"
+        android:background="@null"
+        android:divider="@null"
+        android:layout_marginTop="75dp"
+        android:layout_height="match_parent" />
+
+    <ImageView
+        android:id="@+id/btn_voltar"
+        android:layout_width="15dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/ic_voltar" />
+
+    <Button
+        android:id="@+id/btn_nova_topo"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginRight="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/btn_green"
+        android:text="@string/lbl_criar_nova"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="14sp" />
+
+    <LinearLayout
+        android:id="@+id/frame_no_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="20dp"
+            android:text="@string/lbl_nenhuma_disciplina_encontrada"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_nova"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_green"
+            android:text="@string/lbl_criar_nova"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="14sp" />
+
+    </LinearLayout>
+
+</RelativeLayout>

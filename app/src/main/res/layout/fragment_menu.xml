@@ -1,0 +1,183 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue_overlay"
+    android:padding="25dp"
+    tools:context="br.com.woobe.notepic.fragments.MenuFragment">
+
+    <LinearLayout
+        android:layout_width="190dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <!-- Disciplinas -->
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_disciplina" />
+
+            <TextView
+                android:id="@+id/item_menu_disciplina"
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@drawable/btn_text_blue"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="Disciplinas"
+                />
+        </LinearLayout>
+
+        <!-- Tutorial -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_tutorial" />
+
+            <TextView
+                android:id="@+id/item_menu_tutorial"
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@drawable/btn_text_write"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="Primeiros passos"
+                />
+        </LinearLayout>
+
+        <!-- Avalie -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_avalie" />
+
+            <TextView
+                android:id="@+id/item_menu_avalie"
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@drawable/btn_text_write"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="Avalie o APP"
+                />
+        </LinearLayout>
+
+        <!-- Contato -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_contato" />
+
+            <TextView
+                android:id="@+id/item_menu_contato"
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@drawable/btn_text_write"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="Contate-nos"
+                />
+        </LinearLayout>
+
+        <!-- Sobre -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_sobre" />
+
+            <TextView
+                android:id="@+id/item_menu_sobre"
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@drawable/btn_text_write"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="Sobre"
+                />
+        </LinearLayout>
+
+        <!-- Premium -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/ic_premium" />
+
+            <TextView
+                android:id="@+id/item_menu_premium"
+                android:clickable="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@drawable/btn_text_green"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:layout_marginLeft="10dp"
+                android:text="Seja premium"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/btn_sair"
+        android:layout_width="25dp"
+        android:layout_height="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:background="@drawable/ic_sair" />
+
+</RelativeLayout>
